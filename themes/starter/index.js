@@ -80,26 +80,6 @@ const LayoutIndex = (props) => {
     : []
   return (
         <>
-        {/* 英雄区 */}
-        <Hero/>
-        {/* 产品特性 */}
-        <Features/>
-        {/* 关于 */}
-        <About/>
-        {/* 价格 */}
-        <Pricing/>
-        {/* 评价展示 */}
-        <Testimonials/>
-        {/* 常见问题 */}
-        <FAQ/>
-        {/* 团队介绍 */}
-        <Team/>
-        {/* 博文列表 */}
-        <Blog posts={posts}/>
-        {/* 联系方式 */}
-        <Contact/>
-        {/* 合作伙伴 */}
-        <Brand/>
         </>
   )
 }
