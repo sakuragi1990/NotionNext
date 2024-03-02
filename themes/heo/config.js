@@ -5,8 +5,7 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+   
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -112,7 +111,7 @@ const CONFIG = {
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
-  HEO_MENU_INDEX: true, // 显示首页
+  HEO_MENU_INDEX: false, // 显示首页
   HEO_MENU_CATEGORY: true, // 显示分类
   HEO_MENU_TAG: true, // 显示标签
   HEO_MENU_ARCHIVE: true, // 显示归档
