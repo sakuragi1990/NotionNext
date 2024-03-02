@@ -21,9 +21,9 @@ export default function SideBar (props) {
             <Live2D />
         </aside>
 
-        <aside>
+        {/* <aside>
             <Announcement post={notice} />
-        </aside>
+        </aside> */}
 
         <aside>
             <AdSlot/>
