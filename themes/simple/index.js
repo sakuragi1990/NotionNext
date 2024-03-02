@@ -58,7 +58,8 @@ const LayoutBase = props => {
             {/* 顶部LOGO */}
             <Header {...props} />
 
-           
+            {/* 导航栏 */}
+            <NavBar {...props} />
 
             {/* 主体 */}
             <div id='container-wrapper' className={(JSON.parse(siteConfig('LAYOUT_SIDEBAR_REVERSE')) ? 'flex-row-reverse' : '') + ' w-full flex-1 flex items-start max-w-9/10 mx-auto pt-12'}>
